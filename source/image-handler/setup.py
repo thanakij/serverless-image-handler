@@ -33,13 +33,13 @@ setup(
         # Locking botocore, pycurl version and moving dependencies from requirements
         'tornado==5.0.1',
         'pycurl==7.43.0.1',
-        'tornado_botocore==1.3.0',
+        'tornado_botocore==1.3.2',
         'requests_unixsocket==0.1.5',
         'thumbor==6.5.1',
         'thumbor-plugins==0.2.0',
         # SO-SIH-155 - 07/18/2018 - Rekognition integration
         # Adding Rekognition
-        'thumbor_rekognition==0.1.1',
+        #'thumbor_rekognition==0.1.1',
         'tc_aws==6.2.10',
         'opencv-python==3.2.0.6'
     ],
